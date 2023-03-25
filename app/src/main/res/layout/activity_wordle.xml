@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WordleActivity"
+    android:padding="8dp">
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Guess #1"
+        android:id="@+id/tv_guess1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toStartOf="@id/tv_guessWord1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:textSize="24sp"
+        android:textColor="#808080"
+        android:layout_margin="8dp"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_guessWord1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+
+
+        android:text=""
+        android:textColor="#808080"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/tv_guess1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Guess #1 Check"
+        android:textColor="#808080"
+        android:id="@+id/tv_guess1Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toStartOf="@id/tv_guessWord1Check"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_guess1"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text=""
+        android:textColor="#808080"
+        android:id="@+id/tv_guessWord1Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        app:layout_constraintStart_toEndOf="@id/tv_guess1Check"
+        app:layout_constraintTop_toBottomOf="@id/tv_guessWord1"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Guess #2"
+        android:textColor="#808080"
+        android:id="@+id/tv_guess2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toStartOf="@id/tv_guessWord2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_guess1Check"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text=""
+        android:textColor="#808080"
+        android:id="@+id/tv_guessWord2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        app:layout_constraintStart_toEndOf="@id/tv_guess2"
+        app:layout_constraintTop_toBottomOf="@id/tv_guessWord1Check"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Guess #2 Check"
+        android:textColor="#808080"
+        android:id="@+id/tv_guess2Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toStartOf="@id/tv_guessWord2Check"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_guess2"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text=""
+        android:textColor="#808080"
+        android:id="@+id/tv_guessWord2Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        app:layout_constraintStart_toEndOf="@id/tv_guess2Check"
+        app:layout_constraintTop_toBottomOf="@id/tv_guessWord2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Guess #3"
+        android:textColor="#808080"
+        android:id="@+id/tv_guess3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toStartOf="@id/tv_guessWord3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_guess2Check"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text=""
+        android:textColor="#808080"
+        android:id="@+id/tv_guessWord3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        app:layout_constraintStart_toEndOf="@id/tv_guess3"
+        app:layout_constraintTop_toBottomOf="@id/tv_guessWord2Check"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text="Guess #3 Check"
+        android:textColor="#808080"
+        android:id="@+id/tv_guess3Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toStartOf="@id/tv_guessWord3Check"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_guess3"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text=""
+        android:textColor="#808080"
+        android:id="@+id/tv_guessWord3Check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+
+        app:layout_constraintStart_toEndOf="@id/tv_guess3Check"
+        app:layout_constraintTop_toBottomOf="@id/tv_guessWord3"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="24sp"
+        android:layout_margin="8dp"
+        />
+    <androidx.appcompat.widget.AppCompatTextView
+        android:text=""
+        android:textColor="#808080"
+        android:id="@+id/tv_wordOfDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/editText"
+
+        android:textSize="32sp"
+        android:layout_margin="16dp"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/buttonText"
+        app:layout_constraintStart_toStartOf="parent"
+        android:maxLength="4"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/editText"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:text="Click"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>
