@@ -25,7 +25,9 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-
+git remote add origin https://github.com/O-Marion/Wordle.gif.git
+git branch -M main
+git push -u origin main
 
 
 
