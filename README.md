@@ -25,7 +25,7 @@ The following **optional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-file:///private/var/folders/qn/n483z99503b4_d5wmzbttkcr0000gn/T/267f35ce61802501b4965a8ae53b0617/Kapture%202023-04-05%20at%2014.17.35.gif
+
 
 ![Wordle](https://user-images.githubusercontent.com/93610563/230171001-ee09d9b1-d6f6-41c2-811b-ae7aba6ec3f5.gif)
 
